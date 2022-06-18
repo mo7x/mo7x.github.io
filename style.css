@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-
 .full-line {
   border-image: linear-gradient(0deg,#5555 5px,#0000 0) fill 0//0 100vw 0 0;
-  padding: 10px 0;
+  padding: 10px 10px;
 }
 
 section {
@@ -10,16 +8,18 @@ section {
   margin-inline: max(10px, 50% - 800px/2);
   margin-block: 50px; 
 }
+
 body {
   font-family: 'Roboto Mono', monospace;
   background: #eee;
 }
+
 h1 {
   font-size: 3rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 p {
@@ -32,4 +32,12 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+i {
+  padding-left: 25px;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
