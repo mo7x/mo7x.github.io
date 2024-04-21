@@ -1,30 +1,31 @@
-.full-line {
-  border-image: linear-gradient(0deg,#5555 5px,#0000 0) fill 0//0 100vw 0 0;
-  padding: 10px 10px;
-}
-
 section {
-  /* center + max-width:800px + min-margin: 10px */
-  margin-inline: max(10px, 50% - 800px/2);
-  margin-block: 50px; 
+  margin-inline: 3%;
+  margin-block: 0;
 }
 
 body {
-  font-family: 'Roboto Mono', monospace;
-  background: #eee;
+  background: #323131;;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size:1.2rem;
   text-align:justify;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: auto;
 }
 
 #icons{
@@ -32,12 +33,45 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-size: 1.5rem;
+  gap: 3rem;
+  margin-top: 1%;
+}
+
+#footer{
+  position: relative;
+  bottom: 0;
+  width: 90%;
+  padding: 3%;
+  padding-left: 0;
+  margin-top: 5%;
 }
 
 i {
-  padding-left: 25px;
+  padding-left: 3%;
 }
 
 a, a:visited, a:hover, a:active {
-  color: black;
+  color: rgb(222, 213, 213);
+}
+
+* {
+  font-family: monospace;
+  font-weight: 400;
+  text-align:justify;
+  color: rgb(207, 205, 205);
+}
+
+#quote{
+  text-align: center;
+  margin-top: 1%;
+  font-size: 1.25em;
+}
+
+#author{
+  font-size: 1rem;
+  text-align: right;
+  font-style: italic;
+  margin-top: 1%;
+  font-size: 1em;
 }
